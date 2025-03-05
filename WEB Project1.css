@@ -1,0 +1,123 @@
+/* Genrale Design for the website*/
+body {
+    margin: 0; /* Removes default margin */
+    font-family: 'Arial', sans-serif; /* font style*/
+    background-color: #582cc0; /* Background color*/
+    color: #333; /* Text color*/
+}
+
+/* Style for navigation bar*/
+nav {
+    display: flex; /* uses the flex for alignment in the web page*/
+    justify-content: center; /* Centers navigation horiziontally*/
+    background-color: #582cc0; /* Page background color*/
+    padding: 15px; /* Adds padding to navigation*/
+}
+
+nav ul {
+    list-style: none; /* removes bullet points*/
+    padding: 0; /* removes padding*/
+    margin: 0; /* removes margin*/
+    display: flex; /* uses flex bot for layout*/
+    gap: 20px; /* adds space*/
+}
+
+nav ul li a {
+    text-decoration: none; /* removes the underline*/
+    font-size: 18px; /* font size*/
+    font-weight: bold; /* makes the text bold*/
+    color: white; /* text color*/
+    transition: 0.3s; /* Transition effect when hovering*/
+}
+
+nav ul li a:hover {
+    color: black; /* changes color when hovering*/
+
+}
+
+/* Home page*/
+.home {
+    display: flex; /* flex for allignment*/ 
+    justify-content: center; /* centers the content*/
+    align-items: center; /* centers the content in vetical*/
+    height: 80vh; /* makes the photo 80% of thew view point*/
+    background: url('undefined\ -\ Imgur\ \(2\).jpg') no-repeat center center/cover; /* Inserts the background image*/
+    text-align: center; /* Centers the text inside the page*/
+}
+
+.home-text {
+    background: rgba(255, 255, 255, 0.8); /* Adds tranparentr background for my text*/
+    padding: 20px; /* adds padding in the text box*/
+    border-radius: 10px; /* Rounds the corners of the box*/
+}
+
+h1 {
+    font-size:  50px; /* Font size for heading*/
+    color: #28272b; /* text color*/
+    font-family: 'Impact', sans-serif; /* Bold font for headingf*/
+}
+
+/* About page*/
+.aboutBox {
+    display: flex; /* Flex for the layout*/
+    align-items: center; /* Alligns the page content*/
+    max-width: 900px; /* Creates the width for the box*/
+    margin: 50px auto; /* adss margin with the broswer calculating*/
+    background: white; /* background color*/
+    padding: 20px; /* adds padding in the container*/
+    border-radius: 10px; /* rounds the corners of the box*/
+}
+
+.aboutPhoto {
+    width: 200px; /* Sets width for photo*/
+    height: auto; /* auto cals. height*/
+    border-radius: 10px; /* rounds the corners of the website*/
+    margin-right: 20px; /* Adds spacing betweent the photo and text*/
+}
+
+ /* Contact page*/
+.contactForm  {
+    max-width: 600px; /* width of the form box*/
+    margin: 50px auto; /* cents the form and adds margin*/
+    background: white; /* background color*/
+    padding: 20px; /* adds padding the form box*/
+    border-radius: 10px; /* rounds the corners of the box form*/
+    text-align: center; /* centers the text*/
+}
+
+.contactForm h1 {
+    margin-bottom: 20px; /* Adds space in the heading*/
+    color: #582cc0; /* Text color*/
+}
+
+.contactForm label {
+    display: block; /* Labels will appear in block format*/
+    font-weight: bold; /* Makes text bold*/
+    margin-top: 10px; /* adds space above each label*/
+}
+
+.contactForm input, .contactForm textarea {
+    width: 100%; /* makes input area full width*/
+    padding: 10px; /* adds paddding inside the inputs*/
+    margin-top: 10px; /* add space above inputs*/
+    border-radius: 5px; /* rounds the corners of the input boxes*/
+    font-size: 16px; /* font size of text*/
+
+}
+
+.contactForm button {
+    margin-top: 15px; /* adds space above the button*/
+    padding: 10px 20px; /* adds padding inside the button*/
+    background: #582cc0; /* background color*/
+    color: white; /* text color*/
+    border: none; /* removes the border*/
+    border-radius: 5px; /* rounds the corners*/
+    font-size: 16px; /* font size*/
+    cursor: pointer; /* chnages the cursor to pointer when hovering*/
+    transition: 0.3s; /* adds transition effect when hovering*/
+}
+
+.contactForm button:hover {
+    background: #582cc0; /* Keeps background color the same after pressing*/
+    color: #333; /* changes text color when hovering*/
+}
