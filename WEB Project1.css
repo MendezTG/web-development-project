@@ -41,7 +41,7 @@ nav ul li a:hover {
     justify-content: center; /* centers the content*/
     align-items: center; /* centers the content in vetical*/
     height: 80vh; /* makes the photo 80% of thew view point*/
-    background: url('undefined - Imgur (2) (2).jpg') no-repeat center center/cover; /* Inserts the background image*/
+    background: url('undefined - Imgur (2).jpg') no-repeat center center/cover; /* Inserts the background image*/
     text-align: center; /* Centers the text inside the page*/
 }
 
