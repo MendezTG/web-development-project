@@ -41,7 +41,7 @@ nav ul li a:hover {
     justify-content: center; /* centers the content*/
     align-items: center; /* centers the content in vetical*/
     height: 80vh; /* makes the photo 80% of thew view point*/
-    background: url('undefined\ -\ Imgur\ \(2\).jpg') no-repeat center center/cover; /* Inserts the background image*/
+    background: url('undefined - Imgur (2) (2).jpg') no-repeat center center/cover; /* Inserts the background image*/
     text-align: center; /* Centers the text inside the page*/
 }
 
@@ -82,7 +82,9 @@ h1 {
     background: white; /* background color*/
     padding: 20px; /* adds padding the form box*/
     border-radius: 10px; /* rounds the corners of the box form*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* centers the text*/
+    box-sizing: border-box;
 }
 
 .contactForm h1 {
@@ -100,8 +102,10 @@ h1 {
     width: 100%; /* makes input area full width*/
     padding: 10px; /* adds paddding inside the inputs*/
     margin-top: 10px; /* add space above inputs*/
+    border: 1px solid #ccc;
     border-radius: 5px; /* rounds the corners of the input boxes*/
     font-size: 16px; /* font size of text*/
+    box-sizing: border-box;
 
 }
 
